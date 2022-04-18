@@ -9,14 +9,6 @@ import (
 	"github.com/codingsince1985/geo-golang/opencage"
 )
 
-const (
-	addr         = "Melbourne VIC"
-	radius       = 50
-	zoom         = 18
-	addrFR       = "Champs de Mars Paris"
-	latFR, lngFR = 12.9882, 77.6121
-)
-
 func Geo(l1, l2 float64) (string, *geo.Address) {
 	code := os.Getenv("OPENCAGE_API_KEY")
 	geocoder := opencage.Geocoder(code)
