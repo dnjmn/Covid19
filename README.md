@@ -11,4 +11,4 @@ curl --location --request POST 'https://dry-hamlet-22926.herokuapp.com/covid/cas
 }'
 
 ##### update data: updates the current data to our database
-curl --location --request GET 'localhost:1323/covid/case/update'
+curl --location --request GET 'https://dry-hamlet-22926.herokuapp.com/covid/case/update'
