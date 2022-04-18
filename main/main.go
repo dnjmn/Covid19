@@ -1,10 +1,10 @@
 package main
 
 import (
+	"Covid19/covid"
 	"net/http"
 
 	"github.com/labstack/echo/v4"
-	"projects.golang.dnjmn.com/covid-19/covid"
 )
 
 func main() {

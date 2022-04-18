@@ -1,5 +1,6 @@
-module projects.golang.dnjmn.com/covid-19
+module Covid19
 
+// +heroku goVersion go1.17
 go 1.17
 
 require (

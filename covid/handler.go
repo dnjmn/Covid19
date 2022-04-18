@@ -1,11 +1,11 @@
 package covid
 
 import (
+	"Covid19/geoloc"
 	"net/http"
 	"strconv"
 
 	"github.com/labstack/echo/v4"
-	"projects.golang.dnjmn.com/covid-19/geoloc"
 )
 
 // Location type has latitude and longitude

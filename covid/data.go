@@ -1,12 +1,12 @@
 package covid
 
 import (
+	"Covid19/covid/datacenter"
+	"Covid19/db"
 	"errors"
 	"log"
 
 	"go.mongodb.org/mongo-driver/bson/primitive"
-	"projects.golang.dnjmn.com/covid-19/covid/datacenter"
-	"projects.golang.dnjmn.com/covid-19/db"
 )
 
 const (
